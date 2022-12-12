@@ -1,0 +1,80 @@
+[
+        {
+            "idClassroom" : 1,
+            "idSchool" : 1,
+            "name" : "sala 24",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 2,
+            "idSchool" : 1,
+            "name" : "sala 2",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 3,
+            "idSchool" : 2,
+            "name" : "sala N",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 4,
+            "idSchool" : 2,
+            "name" : "sala T",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 5,
+            "idSchool" : 3,
+            "name" : "sala Design",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 6,
+            "idSchool" : 3,
+            "name" : "sala E",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 7,
+            "idSchool" : 3,
+            "name" : "Auditório EST",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 8,
+            "idSchool" : 3,
+            "name" : "sala 1",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 9,
+            "idSchool" : 3,
+            "name" : "sala 2",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 10,
+            "idSchool" : 3,
+            "name" : "sala 3",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 11,
+            "idSchool" : 3,
+            "name" : "Biblioteca",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 12,
+            "idSchool" : 3,
+            "name" : "sala IoT",
+            "lotation" : 50
+        },
+        {
+            "idClassroom" : 13,
+            "idSchool" : 3,
+            "name" : "sala Redes de Computadores",
+            "lotation" : 50
+        }
+]
