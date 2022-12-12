@@ -1,0 +1,19 @@
+[
+    {
+      "idTypeUser": 1,
+      "name": "student"
+    },
+    {
+      "idTypeUser": 2,
+      "name": "teacher"
+    },
+    {
+      "idTypeUser": 3,
+      "name": "technician"
+    },
+    {
+      "idTypeUser": 4,
+      "name": "admin"
+    }
+  ]
+

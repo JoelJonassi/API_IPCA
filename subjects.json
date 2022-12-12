@@ -1,0 +1,57 @@
+[
+    {
+      "idSubject": 1,
+      "idUser": 1,
+      "subject": "Matemática Discreta",
+      "ects": 6
+    },
+    {
+      "idSubject": 1,
+      "idUser": 4,
+      "subject": "Matemática Discreta",
+      "ects": 6
+    },
+    {
+      "idSubject": 2,
+      "idUser": 2,
+      "subject": "Programação Orientada a Objetos",
+      "ects": 6
+    },
+    {
+      "idSubject": 3,
+      "idUser": 3,
+      "subject": "Análise e Modelação de Software",
+      "ects": 6
+    },
+    {
+      "idSubject": 4,
+      "idUser": 1,
+      "subject": "Cálculo",
+      "ects": 6
+    },
+    {
+      "idSubject": 5,
+      "idUser": 3,
+      "subject": "Algebra Linear",
+      "ects": 6
+    },
+    {
+      "idSubject": 6,
+      "idUser": 3,
+      "subject": "Sistemas Operativos",
+      "ects": 6
+    },
+    {
+      "idSubject": 7,
+      "idUser": 3,
+      "subject": "Redes de Computadores",
+      "ects": 6
+    },
+    {
+      "idSubject": 8,
+      "idUser": 3,
+      "subject": "Análise e Modelação de Software",
+      "ects": 6
+    }
+  ]
+

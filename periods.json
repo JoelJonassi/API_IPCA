@@ -1,0 +1,15 @@
+[
+    {
+      "idPeriod": 1,
+      "name": "Pós Laboral",
+      "initialTime" : "18h00",
+      "finalTime" : "22h30"
+    },
+    {
+      "idPeriod": 2,
+      "name": "Laboral",
+      "initialTime" : "09h00",
+      "finalTime" : "17h30"
+    }
+]
+

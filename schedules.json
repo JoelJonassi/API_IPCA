@@ -1,0 +1,216 @@
+[
+  {
+    "idSchedule": 1,
+    "idDayOfWeek": 2,
+    "initialTime": "9h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 2,
+    "idDayOfWeek": 2,
+    "initialTime": "11h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 3,
+    "idDayOfWeek": 2,
+    "initialTime": "13h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 4,
+    "idDayOfWeek": 2,
+    "initialTime": "18h00",
+    "duration": "1h"
+  },
+  {
+    "idSchedule": 5,
+    "idDayOfWeek": 2,
+    "initialTime": "18h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 6,
+    "idDayOfWeek": 2,
+    "initialTime": "20h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 7,
+    "idDayOfWeek": 2,
+    "initialTime": "20h30",
+    "duration": "1h30"
+  },
+
+  {
+    "idSchedule": 8,
+    "idDayOfWeek": 3,
+    "initialTime": "9h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 9,
+    "idDayOfWeek": 3,
+    "initialTime": "11h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 10,
+    "idDayOfWeek": 3,
+    "initialTime": "13h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 11,
+    "idDayOfWeek": 3,
+    "initialTime": "18h00",
+    "duration": "1h"
+  },
+  {
+    "idSchedule": 12,
+    "idDayOfWeek": 3,
+    "initialTime": "18h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 13,
+    "idDayOfWeek": 3,
+    "initialTime": "20h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 14,
+    "idDayOfWeek": 3,
+    "initialTime": "20h30",
+    "duration": "1h30"
+  },
+
+  {
+    "idSchedule": 15,
+    "idDayOfWeek": 4,
+    "initialTime": "9h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 16,
+    "idDayOfWeek": 4,
+    "initialTime": "11h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 17,
+    "idDayOfWeek": 4,
+    "initialTime": "13h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 18,
+    "idDayOfWeek": 4,
+    "initialTime": "18h00",
+    "duration": "1h"
+  },
+  {
+    "idSchedule": 19,
+    "idDayOfWeek": 4,
+    "initialTime": "18h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 20,
+    "idDayOfWeek": 4,
+    "initialTime": "20h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 21,
+    "idDayOfWeek": 4,
+    "initialTime": "20h30",
+    "duration": "1h30"
+  },
+
+  {
+    "idSchedule": 22,
+    "idDayOfWeek": 2,
+    "initialTime": "9h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 23,
+    "idDayOfWeek": 5,
+    "initialTime": "11h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 24,
+    "idDayOfWeek": 5,
+    "initialTime": "13h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 25,
+    "idDayOfWeek": 5,
+    "initialTime": "18h00",
+    "duration": "1h"
+  },
+  {
+    "idSchedule": 26,
+    "idDayOfWeek": 5,
+    "initialTime": "18h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 27,
+    "idDayOfWeek": 5,
+    "initialTime": "20h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 28,
+    "idDayOfWeek": 5,
+    "initialTime": "20h30",
+    "duration": "1h30"
+  },
+
+  {
+    "idSchedule": 29,
+    "idDayOfWeek": 6,
+    "initialTime": "9h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 30,
+    "idDayOfWeek": 6,
+    "initialTime": "11h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 31,
+    "idDayOfWeek": 6,
+    "initialTime": "13h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 32,
+    "idDayOfWeek": 6,
+    "initialTime": "18h00",
+    "duration": "1h"
+  },
+  {
+    "idSchedule": 33,
+    "idDayOfWeek": 6,
+    "initialTime": "18h30",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 34,
+    "idDayOfWeek": 6,
+    "initialTime": "20h00",
+    "duration": "2h"
+  },
+  {
+    "idSchedule": 35,
+    "idDayOfWeek": 6,
+    "initialTime": "20h30",
+    "duration": "1h30"
+  }
+]

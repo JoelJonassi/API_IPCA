@@ -1,0 +1,80 @@
+[
+    {
+      "idUser": 1,
+      "idTypeUser": 2,
+      "name": "Ricardo Gonçalves",
+      "email": "rgonçalves@ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 2,
+      "idTypeUser": 2,
+      "name": "Luís Ferreira",
+      "email": "lufer@ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 3,
+      "idUsidTypeUserer": 2,
+      "name": "Joaquim Silva",
+      "email": "jpsilva@ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 4,
+      "idTypeUser": 1,
+      "name": "Joel Jonassi",
+      "email": "a19698@alunos.ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 5,
+      "idTypeUser": 1,
+      "name": "José Macedo",
+      "email": "a19697@alunos.ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 6,
+      "idTypeUser": 3,
+      "name": "Rui Manuel",
+      "email": "ruimanuel@alunos.ipca.pt",
+      "password": "1235"
+    },
+    {
+      "idUser": 7,
+      "idTypeUser": 2,
+      "name": "Teresa Abreu",
+      "email": "tabreu@ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 8,
+      "idTypeUser": 1,
+      "name": "Juliano Castro",
+      "email": "a15588@alunos.ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 9,
+      "idTypeUser": 1,
+      "name": "Maria Silva",
+      "email": "a19633@alunos.ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 10,
+      "idTypeUser": 1,
+      "name": "Costa Andrade",
+      "email": "a14033@alunos.ipca.pt",
+      "password": "1234"
+    },
+    {
+      "idUser": 11,
+      "idTypeUser": 1,
+      "name": "admin",
+      "email": "admin@ipca.pt",
+      "password": "1234"
+    }
+  ]
+

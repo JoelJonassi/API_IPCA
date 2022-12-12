@@ -1,0 +1,14 @@
+  [
+    {
+      "idSchool": 1,
+      "name": "Escola de Gestão"
+    },
+    {
+      "idSchool": 2,
+      "name": "Escola de Tecnologia"
+    },
+    {
+      "idSchool": 3,
+      "name": "Escola de Design"
+    }
+ ]

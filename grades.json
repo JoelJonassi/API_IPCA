@@ -1,0 +1,14 @@
+[
+    {
+        "idGrade": 1,
+        "name": "1º Ano"
+    },
+    {
+        "idGrade": 2,
+        "name": "2º Ano"
+    },
+    {
+        "idGrade": 3,
+        "name": "3º Ano"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+      "idUserSubject" : 1,
+      "idSchedule": 1,
+      "idCurse": 1,
+      "idGrade": 1,
+      "idClassRoom": 4
+    },
+    {
+      "idUserSubject" : 2,
+        "idSchedule": 2,
+        "idCurse": 1,
+        "idGrade": 1,
+        "idClassRoom": 3
+      },
+      {
+        "idUserSubject" : 3,
+        "idSchedule": 2,
+        "idCurse": 1,
+        "idGrade": 1,
+        "idClassRoom": 5
+      }
+  ]
+

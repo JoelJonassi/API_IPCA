@@ -1,0 +1,8 @@
+[
+    { "idUserSubject": 1, "idSubject": 1, "idUser": 1 },
+    { "idUserSubject": 2, "idSubject": 1, "idUser": 4},
+    { "idUserSubject": 3, "idSubject": 1, "idUser": 5 },
+    { "idUserSubject": 4, "idSubject": 2, "idUser": 2 },
+    { "idUserSubject": 5, "idSubject": 2, "idUser": 4},
+    { "idUserSubject": 6, "idSubject": 2, "idUser": 5 }
+]

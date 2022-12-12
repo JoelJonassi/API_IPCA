@@ -1,0 +1,64 @@
+ [
+    {
+      "idCourse": 1,
+      "idSchool": 1,
+      "idPeriod": 2,
+      "name": "Gestão Empresarial"
+    },
+    {
+      "idCourse": 2,
+      "idSchool": 1,
+      "idPeriod": 1,
+      "name": "Contabilidade"
+    },
+    {
+      "idCurse": 3,
+      "idSchool": 1,
+      "idPeriod": 1,
+      "name": "Fiscalidade"
+    },
+
+    {
+      "idCourse": 4,
+      "idSchool": 2,
+      "idPeriod": 1,
+      "name": "Enhenharia Industrial"
+    },
+    {
+      "idCourse": 5,
+      "idSchool": 2,
+      "idPeriod": 1,
+      "name": "Engenharia Informática Médiaca"
+    },
+    {
+      "idCourse": 6,
+      "idSchool": 2,
+      "idPeriod": 1,
+      "name": "Engenharia de Desenvolvimento de Jogos"
+    },
+    {
+      "idCourse": 7,
+      "idSchool": 3,
+      "idPeriod": 1,
+      "name": "Marketing"
+    },
+    {
+      "idCourse": 8,
+      "idSchool": 3,
+      "idPeriod": 1,
+      "name": "Design de Moda"
+    },
+    {
+      "idCourse": 8,
+      "idSchool": 3,
+      "idPeriod": 1,
+      "name": "Solicitadoria"
+    },
+    {
+      "idCourse": 8,
+      "idSchool": 3,
+      "idPeriod": 1,
+      "name": "Psicologia"
+    }
+  ]
+
