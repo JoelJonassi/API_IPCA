@@ -1,5 +1,5 @@
 {
-  "buildings": {
+
     "buildings": [
       {
         "IdBuilding": 1,
@@ -27,8 +27,7 @@
         "Name": "Polo Famalicão"
       }
     ]
-  },
-  "classrooms": {
+  ,
     "classrooms": [
       {
         "IdClassroom": 1,
@@ -171,7 +170,7 @@
         "Lotation": 50
       }
     ]
-  },
+,
   "courses": {
     "courses": [
       {
