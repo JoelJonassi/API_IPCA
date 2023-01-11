@@ -1,5 +1,5 @@
 {
-        {
+       "a" : [ {
             "idClassroom" : 1,
             "idSchool" : 1,
             "name" : "sala 24",
@@ -17,4 +17,5 @@
             "name" : "sala N",
             "lotation" : 50
         }
+              ]
 }
