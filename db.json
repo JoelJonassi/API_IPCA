@@ -1,0 +1,1134 @@
+{
+  "buildings": {
+    "buildings": [
+      {
+        "IdBuilding": 1,
+        "IdSchool": 1,
+        "Name": "Polo Barcelos"
+      },
+      {
+        "IdBuilding": 2,
+        "IdSchool": 2,
+        "Name": "Polo Barcelos"
+      },
+      {
+        "IdBuilding": 3,
+        "IdSchool": 3,
+        "Name": "Polo Barcelos"
+      },
+      {
+        "IdBuilding": 4,
+        "IdSchool": 1,
+        "Name": "Polo Guimarães"
+      },
+      {
+        "IdBuilding": 5,
+        "IdSchool": 2,
+        "Name": "Polo Famalicão"
+      }
+    ]
+  },
+  "classrooms": {
+    "classrooms": [
+      {
+        "IdClassroom": 1,
+        "IdSchool": 1,
+        "Name": "Sala 24",
+        "position": {
+          "latitude": 41.535857,
+          "longitude": -8.627524
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 2,
+        "IdSchool": 1,
+        "Name": "Sala L",
+        "position": {
+          "latitude": 41.53774958234516,
+          "longitude": -8.627396824803894
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 3,
+        "IdSchool": 2,
+        "Name": "Sala N",
+        "position": {
+          "latitude": 41.53773889458762,
+          "longitude": -8.627482496029359
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 4,
+        "IdSchool": 2,
+        "Name": "Sala T",
+        "position": {
+          "latitude": 41.53771417244225,
+          "longitude": -8.627204172006563
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 5,
+        "IdSchool": 3,
+        "Name": "Sala Design",
+        "position": {
+          "latitude": 41.537301,
+          "longitude": -8.628077
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 6,
+        "IdSchool": 3,
+        "Name": "Sala E",
+        "position": {
+          "latitude": 41.53747,
+          "longitude": -8.627418
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 7,
+        "IdSchool": 3,
+        "Name": "Auditório EST",
+        "position": {
+          "latitude": 41.53691,
+          "longitude": -8.627594
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 8,
+        "IdSchool": 3,
+        "Name": "Sala 1",
+        "position": {
+          "latitude": 41.536615,
+          "longitude": -8.627415
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 9,
+        "IdSchool": 3,
+        "Name": "Sala 2",
+        "position": {
+          "latitude": 41.536659,
+          "longitude": -8.627631
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 10,
+        "IdSchool": 3,
+        "Name": "Sala 3",
+        "position": {
+          "latitude": 41.536589,
+          "longitude": -8.627639
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 11,
+        "IdSchool": 3,
+        "Name": "Biblioteca",
+        "position": {
+          "latitude": 41.53793705183831,
+          "longitude": -8.62724218403077
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 12,
+        "IdSchool": 3,
+        "Name": "Laboratório IoT",
+        "position": {
+          "latitude": 41.53777626672144,
+          "longitude": -8.627757298562777
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 13,
+        "IdSchool": 3,
+        "Name": "Sala Redes de Computadores",
+        "position": {
+          "latitude": 41.537991,
+          "longitude": -8.627688
+        },
+        "Lotation": 50
+      },
+      {
+        "IdClassroom": 13,
+        "IdSchool": 3,
+        "Name": "Auditório EST",
+        "position": {
+          "latitude": 41.53722573193088,
+          "longitude": -8.627476591513393
+        },
+        "Lotation": 50
+      }
+    ]
+  },
+  "courses": {
+    "courses": [
+      {
+        "IdCourse": 1,
+        "IdSchool": 1,
+        "IdPeriod": 2,
+        "Name": "Gestão Empresarial"
+      },
+      {
+        "IdCourse": 2,
+        "IdSchool": 1,
+        "IdPeriod": 1,
+        "Name": "Contabilidade"
+      },
+      {
+        "IdCurse": 3,
+        "IdSchool": 1,
+        "IdPeriod": 1,
+        "Name": "Fiscalidade"
+      },
+      {
+        "IdCourse": 4,
+        "IdSchool": 2,
+        "IdPeriod": 1,
+        "Name": "Engenharia Industrial"
+      },
+      {
+        "IdCourse": 5,
+        "IdSchool": 2,
+        "IdPeriod": 1,
+        "Name": "Engenharia Informática Médiaca"
+      },
+      {
+        "IdCourse": 6,
+        "IdSchool": 2,
+        "IdPeriod": 1,
+        "Name": "Engenharia de Desenvolvimento de Jogos"
+      },
+      {
+        "IdCourse": 7,
+        "IdSchool": 3,
+        "IdPeriod": 1,
+        "Name": "Marketing"
+      },
+      {
+        "IdCourse": 8,
+        "IdSchool": 3,
+        "IdPeriod": 1,
+        "Name": "Design de Moda"
+      },
+      {
+        "IdCourse": 8,
+        "IdSchool": 3,
+        "IdPeriod": 1,
+        "Name": "Solicitadoria"
+      },
+      {
+        "IdCourse": 8,
+        "IdSchool": 3,
+        "IdPeriod": 1,
+        "Name": "Psicologia"
+      }
+    ]
+  },
+  "daysOfWeek": {
+    "daysOfWeek": [
+      {
+        "IdDayOfWeek": 1,
+        "Name": "Sunday"
+      },
+      {
+        "IdDayOfWeek": 2,
+        "Name": "Monday"
+      },
+      {
+        "IdDayOfWeek": 3,
+        "Name": "Tuesday"
+      },
+      {
+        "IdDayOfWeek": 4,
+        "Name": "Wednesday"
+      },
+      {
+        "IdDayOfWeek": 5,
+        "Name": "Thursday"
+      },
+      {
+        "IdDayOfWeek": 6,
+        "Name": "Friday"
+      },
+      {
+        "IdDayOfWeek": 7,
+        "Name": "Saturday"
+      }
+    ]
+  },
+  "grades": {
+    "grades": [
+      {
+        "IdGrade": 1,
+        "Name": "1º Ano"
+      },
+      {
+        "IdGrade": 2,
+        "Name": "2º Ano"
+      },
+      {
+        "IdGrade": 3,
+        "Name": "3º Ano"
+      }
+    ]
+  },
+  "periods": {
+    "periods": [
+      {
+        "IdPeriod": 1,
+        "Name": "Pós Laboral",
+        "InitialTime": "18h00",
+        "FinalTime": "22h30"
+      },
+      {
+        "IdPeriod": 2,
+        "Name": "Laboral",
+        "InitialTime": "09h00",
+        "FinalTime": "17h30"
+      }
+    ]
+  },
+  "schedules": {
+    "schedules": [
+      {
+        "IdSchedule": 1,
+        "IdDayOfWeek": 2,
+        "InitialTime": "9h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 2,
+        "IdDayOfWeek": 2,
+        "InitialTime": "11h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 3,
+        "IdDayOfWeek": 2,
+        "InitialTime": "13h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 4,
+        "IdDayOfWeek": 2,
+        "InitialTime": "18h00",
+        "Duration": "1h"
+      },
+      {
+        "IdSchedule": 5,
+        "IdDayOfWeek": 2,
+        "InitialTime": "18h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 6,
+        "IdDayOfWeek": 2,
+        "InitialTime": "20h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 7,
+        "IdDayOfWeek": 2,
+        "InitialTime": "20h30",
+        "Duration": "1h30"
+      },
+      {
+        "IdSchedule": 8,
+        "IdDayOfWeek": 3,
+        "InitialTime": "9h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 9,
+        "IdDayOfWeek": 3,
+        "InitialTime": "11h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 10,
+        "IdDayOfWeek": 3,
+        "InitialTime": "13h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 11,
+        "IdDayOfWeek": 3,
+        "InitialTime": "18h00",
+        "Duration": "1h"
+      },
+      {
+        "IdSchedule": 12,
+        "IdDayOfWeek": 3,
+        "InitialTime": "18h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 13,
+        "IdDayOfWeek": 3,
+        "InitialTime": "20h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 14,
+        "IdDayOfWeek": 3,
+        "InitialTime": "20h30",
+        "Duration": "1h30"
+      },
+      {
+        "IdSchedule": 15,
+        "IdDayOfWeek": 4,
+        "InitialTime": "9h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 16,
+        "IdDayOfWeek": 4,
+        "InitialTime": "11h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 17,
+        "IdDayOfWeek": 4,
+        "InitialTime": "13h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 18,
+        "IdDayOfWeek": 4,
+        "InitialTime": "18h00",
+        "Duration": "1h"
+      },
+      {
+        "IdSchedule": 19,
+        "IdDayOfWeek": 4,
+        "InitialTime": "18h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 20,
+        "IdDayOfWeek": 4,
+        "InitialTime": "20h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 21,
+        "IdDayOfWeek": 4,
+        "InitialTime": "20h30",
+        "Duration": "1h30"
+      },
+      {
+        "IdSchedule": 22,
+        "IdDayOfWeek": 2,
+        "InitialTime": "9h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 23,
+        "IdDayOfWeek": 5,
+        "InitialTime": "11h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 24,
+        "IdDayOfWeek": 5,
+        "InitialTime": "13h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 25,
+        "IdDayOfWeek": 5,
+        "InitialTime": "18h00",
+        "Duration": "1h"
+      },
+      {
+        "IdSchedule": 26,
+        "IdDayOfWeek": 5,
+        "InitialTime": "18h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 27,
+        "IdDayOfWeek": 5,
+        "InitialTime": "20h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 28,
+        "IdDayOfWeek": 5,
+        "InitialTime": "20h30",
+        "Duration": "1h30"
+      },
+      {
+        "IdSchedule": 29,
+        "IdDayOfWeek": 6,
+        "InitialTime": "9h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 30,
+        "IdDayOfWeek": 6,
+        "InitialTime": "11h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 31,
+        "IdDayOfWeek": 6,
+        "InitialTime": "13h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 32,
+        "IdDayOfWeek": 6,
+        "InitialTime": "18h00",
+        "Duration": "1h"
+      },
+      {
+        "IdSchedule": 33,
+        "IdDayOfWeek": 6,
+        "InitialTime": "18h30",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 34,
+        "IdDayOfWeek": 6,
+        "InitialTime": "20h00",
+        "Duration": "2h"
+      },
+      {
+        "IdSchedule": 35,
+        "IdDayOfWeek": 6,
+        "InitialTime": "20h30",
+        "Duration": "1h30"
+      }
+    ]
+  },
+  "schools": {
+    "schools": [
+      {
+        "IdSchool": 1,
+        "Name": "Escola Superior de Gestão",
+        "UrlToImage": "https://th.bing.com/th/id/R.20eb94aafc7ed789a6d646e296c2f9e2?rik=7BeEENrEjnh7QQ&pid=ImgRaw&r=0"
+      },
+      {
+        "IdSchool": 2,
+        "Name": "Escola Superior de Tecnologia",
+        "UrlToImage": "https://www.bragamediaarts.com/media/filer_public_thumbnails/filer_public/01/d3/"
+      },
+      {
+        "IdSchool": 3,
+        "Name": "Escola Superior de Design",
+        "UrlToImage": "https://th.bing.com/th/id/OIP.pDp_Vvc1xXfMP0U8cs8dqwHaEJ?w=334&h=187&c=7&r=0&o=5&pid=1.7"
+      },
+      {
+        "IdSchool": 4,
+        "Name": "Escola Superior de Hotelaria e Turismo",
+        "UrlToImage": "https://th.bing.com/th/id/R.da1642c8dadee3a3934548ba02ff2237?rik=UdkibLcQfGWerw&pid=ImgRaw&r=0"
+      }
+    ]
+  },
+  "subjects": {
+    "subjects": [
+      {
+        "IdSubject": 1,
+        "IdUser": 7,
+        "Subject": "Matemática Discreta",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 1,
+        "IdUser": 3,
+        "Subject": "Matemática Discreta",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 2,
+        "IdUser": 4,
+        "Subject": "Programação Orientada a Objetos",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 3,
+        "IdUser": 5,
+        "Subject": "Análise e Modelação de Software",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 4,
+        "IdUser": 11,
+        "Subject": "Cálculo",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 5,
+        "IdUser": 3,
+        "Subject": "Algebra Linear",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 6,
+        "IdUser": 12,
+        "Subject": "Sistemas Operativos",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 7,
+        "IdUser": 13,
+        "Subject": "Redes de Computadores",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 8,
+        "IdUser": 14,
+        "Subject": "Programação de Dispositivos Móveis",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 9,
+        "IdUser": 5,
+        "Subject": "Inteligência Artificial",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 10,
+        "IdUser": 3,
+        "Subject": "Sistemas Embebidos e em Tempo Real",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 11,
+        "IdUser": 15,
+        "Subject": "Projeto Aplicado",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 12,
+        "IdUser": 16,
+        "Subject": "Integração de Sistemas de Informação",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 13,
+        "IdUser": 4,
+        "Subject": "Estruturas de Dados Avançados",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 14,
+        "IdUser": 3,
+        "Subject": "Fundamentos de Física",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 15,
+        "IdUser": 17,
+        "Subject": "Laboratórios de Informática",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 16,
+        "IdUser": 3,
+        "Subject": "Estatística",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 17,
+        "IdUser": 13,
+        "Subject": "Arquitetura de Computadores",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 18,
+        "IdUser": 18,
+        "Subject": "Comunicação de Dados",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 19,
+        "IdUser": 19,
+        "Subject": "Processamento de Linguagens",
+        "Ects": 6
+      },
+      {
+        "IdSubject": 20,
+        "IdUser": 4,
+        "Subject": "Programação Imperativa",
+        "Ects": 6
+      }
+    ]
+  },
+  "typesUsers": {
+    "typesUsers": [
+      {
+        "idTypeUser": 1,
+        "name": "student"
+      },
+      {
+        "idTypeUser": 2,
+        "name": "teacher"
+      },
+      {
+        "idTypeUser": 3,
+        "name": "technician"
+      },
+      {
+        "idTypeUser": 4,
+        "name": "admin"
+      }
+    ]
+  },
+  "users": {
+    "users": [
+      {
+        "idUser": 1,
+        "idTypeUser": 4,
+        "name": "admin",
+        "email": "admin@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Favatar-people-person-business-user-3678347%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBJ"
+      },
+      {
+        "idUser": 2,
+        "idTypeUser": 3,
+        "name": "technician",
+        "email": "technician@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Favatar-people-cartoon-tshirt-3726960%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBB"
+      },
+      {
+        "idUser": 3,
+        "idTypeUser": 2,
+        "name": "Ricardo Gonçalves",
+        "email": "rgonçalves@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainvectors.org%2Fen%2Ffree-clipart%2FVector-illustration-of-young-man-standing-in-white-shirt-and-blue-trousers%2F32337.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAZ"
+      },
+      {
+        "idUser": 4,
+        "idTypeUser": 2,
+        "name": "Luís Ferreira",
+        "email": "lufer@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Ffaceless%2520man%3Ftags%3Dstickers&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAp"
+      },
+      {
+        "idUser": 5,
+        "idTypeUser": 2,
+        "name": "Joaquim Silva",
+        "email": "jpsilva@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreesvg.org%2Fvector-image-of-smiling-young-man-avatar&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAR"
+      },
+      {
+        "idUser": 6,
+        "idTypeUser": 1,
+        "name": "Joel Jonassi",
+        "email": "a19698@alunos.ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fblack-avatar-cute-cheerful-3025348%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBR"
+      },
+      {
+        "idUser": 7,
+        "idTypeUser": 1,
+        "name": "José Macedo",
+        "email": "a19697@alunos.ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainvectors.org%2Fen%2Ffree-clipart%2FVector-image-of-young-man-cartoon-character%2F32306.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAJ"
+      },
+      {
+        "idUser": 6,
+        "idTypeUser": 3,
+        "name": "Rui Manuel",
+        "email": "ruimanuel@alunos.ipca.pt",
+        "password": "1235",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Fillustration%2Fcool-guy-2671503&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAh"
+      },
+      {
+        "idUser": 7,
+        "idTypeUser": 2,
+        "name": "Teresa Abreu",
+        "email": "tabreu@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Ffemale-user-avatar-woman-profile-2022387%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAh"
+      },
+      {
+        "idUser": 8,
+        "idTypeUser": 1,
+        "name": "Juliano Castro",
+        "email": "a15588@alunos.ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Ffree%2Favatar.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBZ"
+      },
+      {
+        "idUser": 9,
+        "idTypeUser": 1,
+        "name": "Maria Silva",
+        "email": "a19633@alunos.ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Fwoman-girl-surprised-shocked-omg-4498450%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAR"
+      },
+      {
+        "idUser": 10,
+        "idTypeUser": 1,
+        "name": "Costa Andrade",
+        "email": "a14033@alunos.ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Ffree%2Fmale-character.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBh"
+      },
+      {
+        "idUser": 11,
+        "idTypeUser": 2,
+        "name": "Natália Rego",
+        "email": "nataliarego@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Ffemale-girl-god-human-people-2026174%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAJ"
+      },
+      {
+        "idUser": 12,
+        "idTypeUser": 2,
+        "name": "Fernando Gomes",
+        "email": "fgomes@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainvectors.org%2Fen%2Ffree-clipart%2FYoung-man-with-scarf%2F71275.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAx"
+      },
+      {
+        "idUser": 13,
+        "idTypeUser": 2,
+        "name": "Paulo Teixeira",
+        "email": "pteixeira@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fsmiling-man&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBp"
+      },
+      {
+        "idUser": 14,
+        "idTypeUser": 2,
+        "name": "Lourenço Gomes",
+        "email": "lgomes@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-vector%2F20220709%2Fourmid%2Fpngtree-man-avatar-wearing-blue-t-shirt-png-image_5809518.png&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fman-avatar&tbnid=8uvEP03enhTkHM&vet=10CAIQxiAoAGoXChMI6Mnw0KS9_AIVAAAAAB0AAAAAED8..i&docid=7ED5CWbyQGUy3M&w=360&h=360&itg=1&q=person%20image%20png%20young&hl=en&ved=0CAIQxiAoAGoXChMI6Mnw0KS9_AIVAAAAAB0AAAAAED8"
+      },
+      {
+        "idUser": 15,
+        "idTypeUser": 2,
+        "name": "Eduardo Peixoto",
+        "email": "epeixoto@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fthinking-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBx"
+      },
+      {
+        "idUser": 16,
+        "idTypeUser": 2,
+        "name": "Óscar Ribeiro",
+        "email": "oribeiro@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fman-without-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABB5"
+      },
+      {
+        "idUser": 17,
+        "idTypeUser": 2,
+        "name": "Marta Martinho",
+        "email": "mmartinho@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Fwoman-young-girl-person-happy-5569959%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAE"
+      },
+      {
+        "idUser": 18,
+        "idTypeUser": 2,
+        "name": "Nuno Lopes",
+        "email": "nlopes@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Fpng-lorem-ipsum-john-doe-digital-marketing-tincidunt-a-612798%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCRAQ"
+      },
+      {
+        "idUser": 19,
+        "idTypeUser": 2,
+        "name": "Alberto Simões",
+        "email": "asimões@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fblank-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCBAQ"
+      },
+      {
+        "idUser": 20,
+        "idTypeUser": 2,
+        "name": "Fernando Gomes",
+        "email": "fgomes@ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fman-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCJAQ"
+      },
+      {
+        "idUser": 21,
+        "idTypeUser": 1,
+        "name": "Maria Susana",
+        "email": "a2253@alunos.ipca.pt",
+        "password": "1234",
+        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreesvg.org%2Fsmiling-young-woman&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAE"
+      }
+    ]
+  },
+  "usersSchedules": {
+    "usersSchedules": [
+      {
+        "idUserSubject": 1,
+        "idSchedule": 1,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 4
+      },
+      {
+        "idUserSubject": 2,
+        "idSchedule": 1,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 4
+      },
+      {
+        "idUserSubject": 3,
+        "idSchedule": 1,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 4
+      },
+      {
+        "idUserSubject": 4,
+        "idSchedule": 1,
+        "idCourse": 5,
+        "idGrade": 1,
+        "idClassRoom": 4
+      },
+      {
+        "idUserSubject": 5,
+        "idSchedule": 2,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 2
+      },
+      {
+        "idUserSubject": 6,
+        "idSchedule": 2,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 2
+      },
+      {
+        "idUserSubject": 7,
+        "idSchedule": 2,
+        "idCourse": 5,
+        "idGrade": 1,
+        "idClassRoom": 2
+      },
+      {
+        "idUserSubject": 8,
+        "idSchedule": 3,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 6
+      },
+      {
+        "idUserSubject": 9,
+        "idSchedule": 3,
+        "idCourse": 5,
+        "idGrade": 1,
+        "idClassRoom": 6
+      },
+      {
+        "idUserSubject": 10,
+        "idSchedule": 4,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 2
+      },
+      {
+        "idUserSubject": 11,
+        "idSchedule": 4,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 2
+      },
+      {
+        "idUserSubject": 12,
+        "idSchedule": 4,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 6
+      },
+      {
+        "idUserSubject": 13,
+        "idSchedule": 11,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 9
+      },
+      {
+        "idUserSubject": 14,
+        "idSchedule": 11,
+        "idCourse": 5,
+        "idGrade": 1,
+        "idClassRoom": 9
+      },
+      {
+        "idUserSubject": 15,
+        "idSchedule": 11,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 9
+      },
+      {
+        "idUserSubject": 16,
+        "idSchedule": 25,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 1
+      },
+      {
+        "idUserSubject": 17,
+        "idSchedule": 25,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 1
+      },
+      {
+        "idUserSubject": 18,
+        "idSchedule": 25,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 1
+      },
+      {
+        "idUserSubject": 19,
+        "idSchedule": 15,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 9
+      },
+      {
+        "idUserSubject": 20,
+        "idSchedule": 15,
+        "idCourse": 5,
+        "idGrade": 1,
+        "idClassRoom": 9
+      },
+      {
+        "idUserSubject": 21,
+        "idSchedule": 15,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 9
+      }
+    ]
+  },
+  "usersSubjects": {
+    "usersSubjects": [
+      {
+        "idUserSubject": 1,
+        "idSubject": 1,
+        "idUser": 3
+      },
+      {
+        "idUserSubject": 4,
+        "idSubject": 1,
+        "idUser": 21
+      },
+      {
+        "idUserSubject": 5,
+        "idSubject": 20,
+        "idUser": 6
+      },
+      {
+        "idUserSubject": 6,
+        "idSubject": 20,
+        "idUser": 4
+      },
+      {
+        "idUserSubject": 7,
+        "idSubject": 20,
+        "idUser": 21
+      },
+      {
+        "idUserSubject": 8,
+        "idSubject": 3,
+        "idUser": 6
+      },
+      {
+        "idUserSubject": 9,
+        "idSubject": 3,
+        "idUser": 21
+      },
+      {
+        "idUserSubject": 10,
+        "idSubject": 4,
+        "idUser": 11
+      },
+      {
+        "idUserSubject": 11,
+        "idSubject": 4,
+        "idUser": 6
+      },
+      {
+        "idUserSubject": 12,
+        "idSubject": 4,
+        "idUser": 7
+      },
+      {
+        "idUserSubject": 13,
+        "idSubject": 9,
+        "idUser": 5
+      },
+      {
+        "idUserSubject": 14,
+        "idSubject": 9,
+        "idUser": 21
+      },
+      {
+        "idUserSubject": 15,
+        "idSubject": 9,
+        "idUser": 7
+      },
+      {
+        "idUserSubject": 16,
+        "idSubject": 12,
+        "idUser": 16
+      },
+      {
+        "idUserSubject": 17,
+        "idSubject": 12,
+        "idUser": 7
+      },
+      {
+        "idUserSubject": 18,
+        "idSubject": 12,
+        "idUser": 6
+      },
+      {
+        "idUserSubject": 19,
+        "idSubject": 19,
+        "idUser": 19
+      },
+      {
+        "idUserSubject": 20,
+        "idSubject": 19,
+        "idUser": 21
+      },
+      {
+        "idUserSubject": 21,
+        "idSubject": 19,
+        "idUser": 7
+      },
+      {
+        "idUserSubject": 22,
+        "idSubject": 3,
+        "idUser": 4
+      }
+    ]
+  }
+}
