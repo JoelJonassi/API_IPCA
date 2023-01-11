@@ -187,12 +187,6 @@
         "Name": "Contabilidade"
       },
       {
-        "IdCurse": 3,
-        "IdSchool": 1,
-        "IdPeriod": 1,
-        "Name": "Fiscalidade"
-      },
-      {
         "IdCourse": 4,
         "IdSchool": 2,
         "IdPeriod": 1,
@@ -202,7 +196,7 @@
         "IdCourse": 5,
         "IdSchool": 2,
         "IdPeriod": 1,
-        "Name": "Engenharia Informática Médiaca"
+        "Name": "Engenharia Informática Médica"
       },
       {
         "IdCourse": 6,
@@ -211,28 +205,10 @@
         "Name": "Engenharia de Desenvolvimento de Jogos"
       },
       {
-        "IdCourse": 7,
-        "IdSchool": 3,
-        "IdPeriod": 1,
-        "Name": "Marketing"
-      },
-      {
         "IdCourse": 8,
         "IdSchool": 3,
         "IdPeriod": 1,
         "Name": "Design de Moda"
-      },
-      {
-        "IdCourse": 8,
-        "IdSchool": 3,
-        "IdPeriod": 1,
-        "Name": "Solicitadoria"
-      },
-      {
-        "IdCourse": 8,
-        "IdSchool": 3,
-        "IdPeriod": 1,
-        "Name": "Psicologia"
       }
     ]
   },
@@ -803,14 +779,6 @@
         "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainvectors.org%2Fen%2Ffree-clipart%2FYoung-man-with-scarf%2F71275.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAx"
       },
       {
-        "idUser": 13,
-        "idTypeUser": 2,
-        "name": "Paulo Teixeira",
-        "email": "pteixeira@ipca.pt",
-        "password": "1234",
-        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fsmiling-man&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBp"
-      },
-      {
         "idUser": 14,
         "idTypeUser": 2,
         "name": "Lourenço Gomes",
@@ -843,28 +811,12 @@
         "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Fwoman-young-girl-person-happy-5569959%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAE"
       },
       {
-        "idUser": 18,
-        "idTypeUser": 2,
-        "name": "Nuno Lopes",
-        "email": "nlopes@ipca.pt",
-        "password": "1234",
-        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Fpng-lorem-ipsum-john-doe-digital-marketing-tincidunt-a-612798%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCRAQ"
-      },
-      {
         "idUser": 19,
         "idTypeUser": 2,
         "name": "Alberto Simões",
         "email": "asimões@ipca.pt",
         "password": "1234",
         "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fblank-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCBAQ"
-      },
-      {
-        "idUser": 20,
-        "idTypeUser": 2,
-        "name": "Fernando Gomes",
-        "email": "fgomes@ipca.pt",
-        "password": "1234",
-        "UrlToImage": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fman-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCJAQ"
       },
       {
         "idUser": 21,
