@@ -1,4 +1,5 @@
-[
+{
+  "typesUsers" : [
     {
       "idTypeUser": 1,
       "name": "student"
@@ -16,4 +17,5 @@
       "name": "admin"
     }
   ]
+}
 

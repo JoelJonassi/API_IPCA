@@ -1,64 +1,66 @@
- [
+ {
+  "courses" : [
     {
-      "idCourse": 1,
-      "idSchool": 1,
-      "idPeriod": 2,
-      "name": "Gestão Empresarial"
+      "IdCourse": 1,
+      "IdSchool": 1,
+      "IdPeriod": 2,
+      "Name": "Gestão Empresarial"
     },
     {
-      "idCourse": 2,
-      "idSchool": 1,
-      "idPeriod": 1,
-      "name": "Contabilidade"
+      "IdCourse": 2,
+      "IdSchool": 1,
+      "IdPeriod": 1,
+      "Name": "Contabilidade"
     },
     {
-      "idCurse": 3,
-      "idSchool": 1,
-      "idPeriod": 1,
-      "name": "Fiscalidade"
+      "IdCurse": 3,
+      "IdSchool": 1,
+      "IdPeriod": 1,
+      "Name": "Fiscalidade"
     },
 
     {
-      "idCourse": 4,
-      "idSchool": 2,
-      "idPeriod": 1,
-      "name": "Enhenharia Industrial"
+      "IdCourse": 4,
+      "IdSchool": 2,
+      "IdPeriod": 1,
+      "Name": "Engenharia Industrial"
     },
     {
-      "idCourse": 5,
-      "idSchool": 2,
-      "idPeriod": 1,
-      "name": "Engenharia Informática Médiaca"
+      "IdCourse": 5,
+      "IdSchool": 2,
+      "IdPeriod": 1,
+      "Name": "Engenharia Informática Médiaca"
     },
     {
-      "idCourse": 6,
-      "idSchool": 2,
-      "idPeriod": 1,
-      "name": "Engenharia de Desenvolvimento de Jogos"
+      "IdCourse": 6,
+      "IdSchool": 2,
+      "IdPeriod": 1,
+      "Name": "Engenharia de Desenvolvimento de Jogos"
     },
     {
-      "idCourse": 7,
-      "idSchool": 3,
-      "idPeriod": 1,
-      "name": "Marketing"
+      "IdCourse": 7,
+      "IdSchool": 3,
+      "IdPeriod": 1,
+      "Name": "Marketing"
     },
     {
-      "idCourse": 8,
-      "idSchool": 3,
-      "idPeriod": 1,
-      "name": "Design de Moda"
+      "IdCourse": 8,
+      "IdSchool": 3,
+      "IdPeriod": 1,
+      "Name": "Design de Moda"
     },
     {
-      "idCourse": 8,
-      "idSchool": 3,
-      "idPeriod": 1,
-      "name": "Solicitadoria"
+      "IdCourse": 8,
+      "IdSchool": 3,
+      "IdPeriod": 1,
+      "Name": "Solicitadoria"
     },
     {
-      "idCourse": 8,
-      "idSchool": 3,
-      "idPeriod": 1,
-      "name": "Psicologia"
+      "IdCourse": 8,
+      "IdSchool": 3,
+      "IdPeriod": 1,
+      "Name": "Psicologia"
     }
   ]
+}
 

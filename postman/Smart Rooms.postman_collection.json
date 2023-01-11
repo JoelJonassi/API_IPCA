@@ -1,0 +1,2758 @@
+{
+	"info": {
+		"_postman_id": "718040ac-d920-4c94-9b93-c93140ac94a9",
+		"name": "Smart Rooms",
+		"description": "Está documentação agrupa todos os endpoints considerados para a simulação da API do IPCA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19757492"
+	},
+	"item": [
+		{
+			"name": "Students",
+			"item": [
+				{
+					"name": "TypeUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/typesUsers?idTypeUser=1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"typesUsers"
+							],
+							"query": [
+								{
+									"key": "idTypeUser",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Identificação do tipo de utilizador"
+					},
+					"response": [
+						{
+							"name": "TypeUser",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/typesUsers?idTypeUser=1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"typesUsers"
+									],
+									"query": [
+										{
+											"key": "idTypeUser",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "54"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"36-nAQ0H+2bSm6Yq5nQKpWsBe8/Lm0\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:12:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idTypeUser\": 1,\n        \"name\": \"student\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Login Student",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/users?email=a19698@alunos.ipca.pt&password=1234",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "a19698@alunos.ipca.pt"
+								},
+								{
+									"key": "password",
+									"value": "1234"
+								}
+							]
+						},
+						"description": "Iniciar a sessão na App"
+					},
+					"response": [
+						{
+							"name": "Login Student",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/users?email=a19698@alunos.ipca.pt&password=1234",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"users"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "a19698@alunos.ipca.pt"
+										},
+										{
+											"key": "password",
+											"value": "1234"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "138"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"8a-eDQ090Bp/twsHAcgDYEGA1uqDB4\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:14:41 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idUser\": 4,\n        \"idTypeUser\": 1,\n        \"name\": \"Joel Jonassi\",\n        \"email\": \"a19698@alunos.ipca.pt\",\n        \"password\": \"1234\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "UserSubjects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/usersSubjects?idUser=4",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usersSubjects"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "4"
+								}
+							]
+						},
+						"description": "Lista de unidades curriculares do utilizador"
+					},
+					"response": [
+						{
+							"name": "UserSubjects",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/usersSubjects?idUser=4",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"usersSubjects"
+									],
+									"query": [
+										{
+											"key": "idUser",
+											"value": "4"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "140"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"8c-otjiPDo+eVb4hrRbdWEZB3BG7Xw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:14:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idUserSubject\": 2,\n        \"idSubject\": 1,\n        \"idUser\": 4\n    },\n    {\n        \"idUserSubject\": 5,\n        \"idSubject\": 2,\n        \"idUser\": 4\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Subjects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/subjects?idSubject=2&idSubject=1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							],
+							"query": [
+								{
+									"key": "idSubject",
+									"value": "2"
+								},
+								{
+									"key": "idSubject",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Identificação concreta as unidades curriculares \"O nome e diretor da UC\""
+					},
+					"response": [
+						{
+							"name": "Subjects",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/subjects?idSubject=2&idSubject=1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"subjects"
+									],
+									"query": [
+										{
+											"key": "idSubject",
+											"value": "2"
+										},
+										{
+											"key": "idSubject",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "312"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"138-HZ2qL/nGu5nYEJ6qWPv4joG6IQs\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:04 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idSubject\": 1,\n        \"idUser\": 1,\n        \"subject\": \"Matemática Discreta\",\n        \"ects\": 6\n    },\n    {\n        \"idSubject\": 1,\n        \"idUser\": 4,\n        \"subject\": \"Matemática Discreta\",\n        \"ects\": 6\n    },\n    {\n        \"idSubject\": 2,\n        \"idUser\": 2,\n        \"subject\": \"Programação Orientada a Objetos\",\n        \"ects\": 6\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "UserSchedule",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/usersSchedules?idUserSubject=2&idUserSubject=5",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usersSchedules"
+							],
+							"query": [
+								{
+									"key": "idUserSubject",
+									"value": "2"
+								},
+								{
+									"key": "idUserSubject",
+									"value": "5"
+								}
+							]
+						},
+						"description": "O horário do utilizador"
+					},
+					"response": [
+						{
+							"name": "UserSchedule",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/usersSchedules?idUserSubject=2&idUserSubject=5",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"usersSchedules"
+									],
+									"query": [
+										{
+											"key": "idUserSubject",
+											"value": "2"
+										},
+										{
+											"key": "idUserSubject",
+											"value": "5"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "113"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"71-jj/PFM0QG1WEjBd8hxV4jY92kTE\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:10 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idUserSubject\": 2,\n        \"idSchedule\": 2,\n        \"idCurse\": 1,\n        \"idGrade\": 1,\n        \"idClassRoom\": 3\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "MySchedule",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/schedules?idSchedule=2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"schedules"
+							],
+							"query": [
+								{
+									"key": "idSchedule",
+									"value": "2"
+								}
+							]
+						},
+						"description": "Horário de determinado utilizador"
+					},
+					"response": [
+						{
+							"name": "MySchedule",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/schedules?idSchedule=2",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"schedules"
+									],
+									"query": [
+										{
+											"key": "idSchedule",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "103"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"67-nwe7qpwF2dALThnMYeLeHXU32Xg\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:15 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idSchedule\": 2,\n        \"idDayOfWeek\": 2,\n        \"initialTime\": \"11h30\",\n        \"duration\": \"2h\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "DaysOfWeek",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/daysofweek?idDayOfWeek=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"daysofweek"
+							],
+							"query": [
+								{
+									"key": "idDayOfWeek",
+									"value": "2"
+								}
+							]
+						},
+						"description": "Dias da semana"
+					},
+					"response": [
+						{
+							"name": "DaysOfWeek",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/daysofweek?idDayOfWeek=2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"daysofweek"
+									],
+									"query": [
+										{
+											"key": "idDayOfWeek",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "54"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"36-+irmlkR3v1Cb/9OeP+QdGXsHrzs\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:21 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idDayOfWeek\": 2,\n        \"name\": \"Monday\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "MyClassrooms",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/classrooms?idClassroom=4&idClassroom=3&idSchool=2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"classrooms"
+							],
+							"query": [
+								{
+									"key": "idClassroom",
+									"value": "4"
+								},
+								{
+									"key": "idClassroom",
+									"value": "3"
+								},
+								{
+									"key": "idSchool",
+									"value": "2"
+								}
+							]
+						},
+						"description": "As escolas e a turmas em que ocorrem as aulas de um determinado utilizador"
+					},
+					"response": [
+						{
+							"name": "MyClassrooms",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/classrooms?idClassroom=4&idClassroom=3&idSchool=2",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"classrooms"
+									],
+									"query": [
+										{
+											"key": "idClassroom",
+											"value": "4"
+										},
+										{
+											"key": "idClassroom",
+											"value": "3"
+										},
+										{
+											"key": "idSchool",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "184"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b8-3oZa8ay5P9AvyErr2yO/qG607xM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idClassroom\": 3,\n        \"idSchool\": 2,\n        \"name\": \"sala N\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 4,\n        \"idSchool\": 2,\n        \"name\": \"sala T\",\n        \"lotation\": 50\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "GetAllClassrooms",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/classrooms?idSchool=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"classrooms"
+							],
+							"query": [
+								{
+									"key": "idSchool",
+									"value": "2"
+								}
+							]
+						},
+						"description": "Todas as salas de uma escola do IPCA"
+					},
+					"response": [
+						{
+							"name": "GetAllClassrooms",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/classrooms?idSchool=2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"classrooms"
+									],
+									"query": [
+										{
+											"key": "idSchool",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "184"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b8-3oZa8ay5P9AvyErr2yO/qG607xM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:36 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idClassroom\": 3,\n        \"idSchool\": 2,\n        \"name\": \"sala N\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 4,\n        \"idSchool\": 2,\n        \"name\": \"sala T\",\n        \"lotation\": 50\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "MySchool",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/schools?idSchool=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"schools"
+							],
+							"query": [
+								{
+									"key": "idSchool",
+									"value": "2"
+								}
+							]
+						},
+						"description": "A escola em que o utilizador está inscrito"
+					},
+					"response": [
+						{
+							"name": "MySchool",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/schools?idSchool=2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"schools"
+									],
+									"query": [
+										{
+											"key": "idSchool",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "65"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"41-Sm161tBjIfpXjnRW4ZzrMHCjS2U\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:43 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idSchool\": 2,\n        \"name\": \"Escola de Tecnologia\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "MyGrade",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/grades?idGrade=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"grades"
+							],
+							"query": [
+								{
+									"key": "idGrade",
+									"value": "1"
+								}
+							]
+						},
+						"description": "O ano académico do utilizador"
+					},
+					"response": [
+						{
+							"name": "MyGrade",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/grades?idGrade=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"grades"
+									],
+									"query": [
+										{
+											"key": "idGrade",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "51"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33-wpNE9MJ00F5sdw1+TEaVJy79IK8\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idGrade\": 1,\n        \"name\": \"1º Ano\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "MyCourse",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/courses?idCourse=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"courses"
+							],
+							"query": [
+								{
+									"key": "idCourse",
+									"value": "1"
+								}
+							]
+						},
+						"description": "O curso do utilizador"
+					},
+					"response": [
+						{
+							"name": "MyCourse",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/courses?idCourse=1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"courses"
+									],
+									"query": [
+										{
+											"key": "idCourse",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "102"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"66-2vhfByBWYcXiHUSTNF025TCdQDM\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:15:54 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idCourse\": 1,\n        \"idSchool\": 1,\n        \"idPeriod\": 2,\n        \"name\": \"Gestão Empresarial\"\n    }\n]"
+						}
+					]
+				}
+			],
+			"description": "Requisições possíveis para utilizador do tipo Aluno"
+		},
+		{
+			"name": "Teachers",
+			"item": [
+				{
+					"name": "TypeUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/typesUsers?idTypeUser=2",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"typesUsers"
+							],
+							"query": [
+								{
+									"key": "idTypeUser",
+									"value": "2"
+								}
+							]
+						},
+						"description": "Indetificação do tipo de utilizador"
+					},
+					"response": [
+						{
+							"name": "TypeUser",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/typesUsers?idTypeUser=2",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"typesUsers"
+									],
+									"query": [
+										{
+											"key": "idTypeUser",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "54"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"36-lu6GK34qvFzJace6J+Vm7r25rKg\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:02 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idTypeUser\": 2,\n        \"name\": \"teacher\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Login Teacher",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/users?email=rgonçalves@ipca.pt&password=1234",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "rgonçalves@ipca.pt"
+								},
+								{
+									"key": "password",
+									"value": "1234"
+								}
+							]
+						},
+						"description": "Iniciar a sessão na App"
+					},
+					"response": [
+						{
+							"name": "Login Teacher",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/users?email=rgonçalves@ipca.pt&password=1234",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"users"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "rgonçalves@ipca.pt"
+										},
+										{
+											"key": "password",
+											"value": "1234"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "142"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"8e-n8+FHLCAfGpt7xt+3TfkLJ8q4NA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:09 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idUser\": 1,\n        \"idTypeUser\": 2,\n        \"name\": \"Ricardo Gonçalves\",\n        \"email\": \"rgonçalves@ipca.pt\",\n        \"password\": \"1234\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "UserSubjects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/usersSubjects?idUser=1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usersSubjects"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "1"
+								}
+							]
+						},
+						"description": "As UCś que o utilizador leciona"
+					},
+					"response": [
+						{
+							"name": "UserSubjects",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/usersSubjects?idUser=1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"usersSubjects"
+									],
+									"query": [
+										{
+											"key": "idUser",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "71"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"47-8zRkkhgzSZgM9QfBp0lllgG9qKE\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:14 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idUserSubject\": 1,\n        \"idSubject\": 1,\n        \"idUser\": 1\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Subjects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/subjects?idUser=1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							],
+							"query": [
+								{
+									"key": "idUser",
+									"value": "1"
+								}
+							]
+						},
+						"description": "A identificação concreta a UCś"
+					},
+					"response": [
+						{
+							"name": "Subjects",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/subjects?idUser=1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"subjects"
+									],
+									"query": [
+										{
+											"key": "idUser",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "188"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"bc-uetn6FNi9cLgynUCr5AST3Zx1/U\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:20 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idSubject\": 1,\n        \"idUser\": 1,\n        \"subject\": \"Matemática Discreta\",\n        \"ects\": 6\n    },\n    {\n        \"idSubject\": 4,\n        \"idUser\": 1,\n        \"subject\": \"Cálculo\",\n        \"ects\": 6\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "UserSchedules",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/usersSchedules?idUserSubject=1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"usersSchedules"
+							],
+							"query": [
+								{
+									"key": "idUserSubject",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Horário do utilizador"
+					},
+					"response": [
+						{
+							"name": "UserSchedules",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/usersSchedules?idUserSubject=1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"usersSchedules"
+									],
+									"query": [
+										{
+											"key": "idUserSubject",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "113"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"71-Lpurf1an0j66H8tg2Wt/Gg8Qdgw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idUserSubject\": 1,\n        \"idSchedule\": 1,\n        \"idCurse\": 1,\n        \"idGrade\": 1,\n        \"idClassRoom\": 4\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "MySchedule",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/schedules?idSchedule=1",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"schedules"
+							],
+							"query": [
+								{
+									"key": "idSchedule",
+									"value": "1"
+								}
+							]
+						},
+						"description": "Horário do utilizador"
+					},
+					"response": [
+						{
+							"name": "MySchedule",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/schedules?idSchedule=1",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"schedules"
+									],
+									"query": [
+										{
+											"key": "idSchedule",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "102"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"66-XhGqCMpU4k6y03QnJ7fh3JogRmQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idSchedule\": 1,\n        \"idDayOfWeek\": 2,\n        \"initialTime\": \"9h00\",\n        \"duration\": \"2h\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "DaysOfWeek",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/daysofweek?idDayOfWeek=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"daysofweek"
+							],
+							"query": [
+								{
+									"key": "idDayOfWeek",
+									"value": "2"
+								}
+							]
+						},
+						"description": "Dias da semana"
+					},
+					"response": [
+						{
+							"name": "DaysOfWeek",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/daysofweek?idDayOfWeek=2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"daysofweek"
+									],
+									"query": [
+										{
+											"key": "idDayOfWeek",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "54"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"36-+irmlkR3v1Cb/9OeP+QdGXsHrzs\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:38 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idDayOfWeek\": 2,\n        \"name\": \"Monday\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "MyClassrooms",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/classrooms?idClassroom=4",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"classrooms"
+							],
+							"query": [
+								{
+									"key": "idClassroom",
+									"value": "4"
+								}
+							]
+						},
+						"description": "As salas em que ocorrem as aulas que o utilizador leciona"
+					},
+					"response": [
+						{
+							"name": "MyClassrooms",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/classrooms?idClassroom=4",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"classrooms"
+									],
+									"query": [
+										{
+											"key": "idClassroom",
+											"value": "4"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "93"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"5d-Zif5zvOEFlUyWHKfCnVRWU+np64\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:50 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idClassroom\": 4,\n        \"idSchool\": 2,\n        \"name\": \"sala T\",\n        \"lotation\": 50\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "GetAllClassrooms",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/classrooms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"classrooms"
+							]
+						},
+						"description": "Todas as salas do utilizador"
+					},
+					"response": [
+						{
+							"name": "GetAllClassrooms",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/classrooms",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"classrooms"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin, Accept-Encoding"
+								},
+								{
+									"key": "Access-Control-Allow-Credentials",
+									"value": "true"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "-1"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4cd-dCQgyUqiaHzx7j75Pr2MQeL/YKg\""
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "gzip"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 17 Nov 2022 21:16:57 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"idClassroom\": 1,\n        \"idSchool\": 1,\n        \"name\": \"sala 24\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 2,\n        \"idSchool\": 1,\n        \"name\": \"sala 2\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 3,\n        \"idSchool\": 2,\n        \"name\": \"sala N\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 4,\n        \"idSchool\": 2,\n        \"name\": \"sala T\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 5,\n        \"idSchool\": 3,\n        \"name\": \"sala Design\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 6,\n        \"idSchool\": 3,\n        \"name\": \"sala E\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 7,\n        \"idSchool\": 3,\n        \"name\": \"Auditório EST\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 8,\n        \"idSchool\": 3,\n        \"name\": \"sala 1\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 9,\n        \"idSchool\": 3,\n        \"name\": \"sala 2\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 10,\n        \"idSchool\": 3,\n        \"name\": \"sala 3\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 11,\n        \"idSchool\": 3,\n        \"name\": \"Biblioteca\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 12,\n        \"idSchool\": 3,\n        \"name\": \"sala IoT\",\n        \"lotation\": 50\n    },\n    {\n        \"idClassroom\": 13,\n        \"idSchool\": 3,\n        \"name\": \"sala Redes de Computadores\",\n        \"lotation\": 50\n    }\n]"
+						}
+					]
+				}
+			],
+			"description": "Requisições referentes ao utilizador do tipo Professor"
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "GetAll",
+					"item": [
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/db",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"db"
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "GetAll",
+									"originalRequest": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "localhost:3000/db",
+											"host": [
+												"localhost"
+											],
+											"port": "3000",
+											"path": [
+												"db"
+											]
+										}
+									},
+									"_postman_previewlanguage": "Text",
+									"header": [],
+									"cookie": [],
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "GetAllSchedules",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/schedules",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"schedules"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllDaysOfWeek",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/daysofweek",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"daysofweek"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllClassrooms",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/classrooms",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"classrooms"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllGrades",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/grades",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"grades"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllCourses",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/courses",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"courses"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllSubjects",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/subjects",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"subjects"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllBuildings",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/buildings",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"buildings"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllPresences",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/presences",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"presences"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllPeriods",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/periods",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"periods"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllSchools",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/schools",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"schools"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllTypesUsers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/typesUsers",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"typesUsers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllUsers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/users",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"users"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllUsersSchedules",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/usersschedules",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"usersschedules"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllUsersPresences",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/userspresences",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"userspresences"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllUsersSubjects",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/userssubjects",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"userssubjects"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "AddCourse",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/courses?name=Fazer Ovos",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"courses"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Fazer Ovos"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddSchedule",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "ChangeSchedule",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "idSchedule",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "duration",
+									"value": "10h",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/schedules/?",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"schedules",
+								""
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

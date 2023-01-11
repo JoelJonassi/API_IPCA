@@ -1,14 +1,25 @@
-  [
+  {
+    "schools" : [
     {
-      "idSchool": 1,
-      "name": "Escola de Gestão"
+      "IdSchool": 1,
+      "Name": "Escola Superior de Gestão",
+      "UrlToImage" : "https://th.bing.com/th/id/R.20eb94aafc7ed789a6d646e296c2f9e2?rik=7BeEENrEjnh7QQ&pid=ImgRaw&r=0"
     },
     {
-      "idSchool": 2,
-      "name": "Escola de Tecnologia"
+      "IdSchool": 2,
+      "Name": "Escola Superior de Tecnologia",
+      "UrlToImage" : "https://www.bragamediaarts.com/media/filer_public_thumbnails/filer_public/01/d3/"
+      
     },
     {
-      "idSchool": 3,
-      "name": "Escola de Design"
+      "IdSchool": 3,
+      "Name": "Escola Superior de Design",
+      "UrlToImage" : "https://th.bing.com/th/id/OIP.pDp_Vvc1xXfMP0U8cs8dqwHaEJ?w=334&h=187&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "IdSchool": 4,
+      "Name": "Escola Superior de Hotelaria e Turismo",
+      "UrlToImage" : "https://th.bing.com/th/id/R.da1642c8dadee3a3934548ba02ff2237?rik=UdkibLcQfGWerw&pid=ImgRaw&r=0"
     }
  ]
+}

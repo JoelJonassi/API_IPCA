@@ -1,24 +1,166 @@
-[
+{
+  "usersSchedules" : [
     {
       "idUserSubject" : 1,
       "idSchedule": 1,
-      "idCurse": 1,
+      "idCourse": 1,
       "idGrade": 1,
       "idClassRoom": 4
     },
     {
       "idUserSubject" : 2,
-        "idSchedule": 2,
-        "idCurse": 1,
-        "idGrade": 1,
-        "idClassRoom": 3
+      "idSchedule": 1,
+      "idCourse": 1,
+      "idGrade": 1,
+      "idClassRoom": 4
+    },
+    {
+      "idUserSubject" : 3,
+      "idSchedule": 1,
+      "idCourse": 1,
+      "idGrade": 1,
+      "idClassRoom": 4
       },
       {
-        "idUserSubject" : 3,
-        "idSchedule": 2,
-        "idCurse": 1,
+        "idUserSubject" : 4,
+        "idSchedule": 1,
+        "idCourse": 5,
         "idGrade": 1,
-        "idClassRoom": 5
-      }
-  ]
+        "idClassRoom": 4
+      },
 
+      {
+        "idUserSubject" : 5,
+        "idSchedule": 2,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 2
+      },
+      {
+        "idUserSubject" : 6,
+        "idSchedule": 2,
+        "idCourse": 1,
+        "idGrade": 1,
+        "idClassRoom": 2
+      },
+      {
+        "idUserSubject" : 7,
+        "idSchedule": 2,
+        "idCourse": 5,
+        "idGrade": 1,
+        "idClassRoom": 2
+        },
+
+        {
+          "idUserSubject" : 8,
+          "idSchedule": 3,
+          "idCourse": 1,
+          "idGrade": 1,
+          "idClassRoom": 6
+        }
+        ,
+        
+        {
+          "idUserSubject" : 9,
+          "idSchedule": 3,
+          "idCourse": 5,
+          "idGrade": 1,
+          "idClassRoom": 6
+        },
+
+
+
+
+        {
+          "idUserSubject" : 10,
+          "idSchedule": 4,
+          "idCourse": 1,
+          "idGrade": 1,
+          "idClassRoom": 2
+        },
+        {
+          "idUserSubject" : 11,
+          "idSchedule": 4,
+          "idCourse": 1,
+          "idGrade": 1,
+          "idClassRoom": 2
+          },
+  
+          {
+            "idUserSubject" : 12,
+            "idSchedule": 4,
+            "idCourse": 1,
+            "idGrade": 1,
+            "idClassRoom": 6
+          }
+          ,
+          
+          {
+            "idUserSubject" : 13,
+            "idSchedule": 11,
+            "idCourse": 1,
+            "idGrade": 1,
+            "idClassRoom": 9
+          },
+          {
+            "idUserSubject" : 14,
+            "idSchedule": 11,
+            "idCourse": 5,
+            "idGrade": 1,
+            "idClassRoom": 9
+            },
+    
+            {
+              "idUserSubject" : 15,
+              "idSchedule": 11,
+              "idCourse": 1,
+              "idGrade": 1,
+              "idClassRoom": 9
+            }
+            ,
+            {
+              "idUserSubject" : 16,
+              "idSchedule": 25,
+              "idCourse": 1,
+              "idGrade": 1,
+              "idClassRoom": 1
+            },
+            {
+              "idUserSubject" : 17,
+              "idSchedule": 25,
+              "idCourse": 1,
+              "idGrade": 1,
+              "idClassRoom": 1
+              },
+      
+              {
+                "idUserSubject" : 18,
+                "idSchedule": 25,
+                "idCourse": 1,
+                "idGrade": 1,
+                "idClassRoom": 1
+              },
+              {
+                "idUserSubject" :19,
+                "idSchedule": 15,
+                "idCourse": 1,
+                "idGrade": 1,
+                "idClassRoom": 9
+              },
+              {
+                "idUserSubject" : 20,
+                "idSchedule": 15,
+                "idCourse": 5,
+                "idGrade": 1,
+                "idClassRoom": 9
+                },
+        
+                {
+                  "idUserSubject" : 21,
+                  "idSchedule": 15,
+                  "idCourse": 1,
+                  "idGrade": 1,
+                  "idClassRoom": 9
+                }        
+  ]
+}

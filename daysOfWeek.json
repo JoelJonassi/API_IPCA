@@ -1,31 +1,33 @@
-[
+{
+  "daysOfWeek" :[
     {
-      "idDayOfWeek": 1,
-      "name": "Sunday"
+      "IdDayOfWeek": 1,
+      "Name": "Sunday"
     },
     {
-      "idDayOfWeek": 2,
-      "name": "Monday"
+      "IdDayOfWeek": 2,
+      "Name": "Monday"
     },
     {
-      "idDayOfWeek": 3,
-      "name": "Tuesday"
+      "IdDayOfWeek": 3,
+      "Name": "Tuesday"
     },
     {
-      "idDayOfWeek": 4,
-      "name": "Wednesday"
+      "IdDayOfWeek": 4,
+      "Name": "Wednesday"
     },
     {
-      "idDayOfWeek": 5,
-      "name": "Thursday"
+      "IdDayOfWeek": 5,
+      "Name": "Thursday"
     },
     {
-      "idDayOfWeek": 6,
-      "name": "Friday"
+      "IdDayOfWeek": 6,
+      "Name": "Friday"
     },
     {
-      "idDayOfWeek": 7,
-      "name": "Saturday"
+      "IdDayOfWeek": 7,
+      "Name": "Saturday"
     }
   ]
+}
 

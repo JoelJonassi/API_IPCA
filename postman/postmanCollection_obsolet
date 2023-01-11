@@ -1,0 +1,877 @@
+{
+  "info": {
+    "_postman_id": "718040ac-d920-4c94-9b93-c93140ac94a9",
+    "name": "Smart Rooms",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Students",
+      "item": [
+        {
+          "name": "TypeUser",
+          "id": "0d87c7e9-dddd-49dc-aade-8539fc7a6293",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/typesUsers?idTypeUser=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "typesUsers"
+              ],
+              "query": [
+                {
+                  "key": "idTypeUser",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Login Student",
+          "id": "88be279d-fddf-469f-9baa-f7a700b3d44f",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/users?idUser=4&name=Joel Jonassi&email=a19698@alunos.ipca.pt&passwor=1234",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "users"
+              ],
+              "query": [
+                {
+                  "key": "idUser",
+                  "value": "4"
+                },
+                {
+                  "key": "name",
+                  "value": "Joel Jonassi"
+                },
+                {
+                  "key": "email",
+                  "value": "a19698@alunos.ipca.pt"
+                },
+                {
+                  "key": "passwor",
+                  "value": "1234"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UserSubjects",
+          "id": "abb9c3a6-2ee9-4b2b-8492-4f3522041872",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/usersSubjects?idUser=4",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "usersSubjects"
+              ],
+              "query": [
+                {
+                  "key": "idUser",
+                  "value": "4"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Subjects",
+          "id": "78019c0a-c129-4f07-a4f8-2e9908ee1c53",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/subjects?idSubject=2&idSubject=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ],
+              "query": [
+                {
+                  "key": "idSubject",
+                  "value": "2"
+                },
+                {
+                  "key": "idSubject",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UserPresences",
+          "id": "757774f3-0488-4e71-a832-559055ebde07",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/usersPresences?idUserSubject=2&idUserSubject=5",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "usersPresences"
+              ],
+              "query": [
+                {
+                  "key": "idUserSubject",
+                  "value": "2"
+                },
+                {
+                  "key": "idUserSubject",
+                  "value": "5"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Presence",
+          "id": "c2b2f5ed-5121-46df-9e1e-518c2e175dcf",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/presences?idPresence=1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "presences"
+              ],
+              "query": [
+                {
+                  "key": "idPresence",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UserSchedule",
+          "id": "0a025c5c-003c-4c29-8a22-c1225eb92a2e",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/usersSchedules?idUserPresence=1&idUserPresence=2",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "usersSchedules"
+              ],
+              "query": [
+                {
+                  "key": "idUserPresence",
+                  "value": "1"
+                },
+                {
+                  "key": "idUserPresence",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MySchedule",
+          "id": "51578642-4845-4fd2-a514-fc0b8408c5f4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/schedules?idSchedule=1&idSchedule=2",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "schedules"
+              ],
+              "query": [
+                {
+                  "key": "idSchedule",
+                  "value": "1"
+                },
+                {
+                  "key": "idSchedule",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MyClassrooms",
+          "id": "2a6c2a75-6739-4564-863a-c55dd54dc81f",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/classrooms?idClassroom=4&idClassroom=3&idSchool=2",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "classrooms"
+              ],
+              "query": [
+                {
+                  "key": "idClassroom",
+                  "value": "4"
+                },
+                {
+                  "key": "idClassroom",
+                  "value": "3"
+                },
+                {
+                  "key": "idSchool",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetAllClassrooms",
+          "id": "94937b3e-2d68-4054-8a78-acabe0cdb9b1",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/classrooms?idSchool=2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "classrooms"
+              ],
+              "query": [
+                {
+                  "key": "idSchool",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MySchool",
+          "id": "d529f183-15cb-43a5-ac4e-730d57aa26e4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/schools?idSchool=2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "schools"
+              ],
+              "query": [
+                {
+                  "key": "idSchool",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MyGrade",
+          "id": "876b1e87-5111-47bf-9b71-6b4bcdeb87ad",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/grades?idGrade=1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "grades"
+              ],
+              "query": [
+                {
+                  "key": "idGrade",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "d1062af5-52af-4e45-beda-eb6fbb49864c"
+    },
+    {
+      "name": "Teachers",
+      "item": [
+        {
+          "name": "TypeUser",
+          "id": "687ba3bc-1c8d-462a-b53d-5578c96a10a2",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/typesUsers?idTypeUser=2",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "typesUsers"
+              ],
+              "query": [
+                {
+                  "key": "idTypeUser",
+                  "value": "2"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Login Teacher",
+          "id": "96f1b06b-3897-4472-88dd-24898e0bd074",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/users?idTypeUser=2&id=1&email=rgonçalves@ipca.pt&password=1234",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "users"
+              ],
+              "query": [
+                {
+                  "key": "idTypeUser",
+                  "value": "2"
+                },
+                {
+                  "key": "id",
+                  "value": "1"
+                },
+                {
+                  "key": "email",
+                  "value": "rgonçalves@ipca.pt"
+                },
+                {
+                  "key": "password",
+                  "value": "1234"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UserSubjects",
+          "id": "48e1103a-4659-4689-a095-b5c3400440c8",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/usersSubjects?idUser=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "usersSubjects"
+              ],
+              "query": [
+                {
+                  "key": "idUser",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Subjects",
+          "id": "b272592b-7a09-4943-9f7c-6bfabd28f1ac",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/subjects?idUser=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ],
+              "query": [
+                {
+                  "key": "idUser",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UserPresences",
+          "id": "131761d5-d9e2-4a0f-980b-54adc769c2db",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/usersPresences?idUserSubject=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "usersPresences"
+              ],
+              "query": [
+                {
+                  "key": "idUserSubject",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Presence",
+          "id": "470e7b8b-d3eb-4943-9063-1a4a6c132fe9",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/presences?idPresence=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "presences"
+              ],
+              "query": [
+                {
+                  "key": "idPresence",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "UserSchedules",
+          "id": "9d4373cb-dbbd-4182-8e1b-f61b4e84a5b4",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/usersSchedules?idUserPresence=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "usersSchedules"
+              ],
+              "query": [
+                {
+                  "key": "idUserPresence",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MySchedule",
+          "id": "afa8fae2-84a9-487c-ac19-afaffe8d7896",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/schedules?idSchedule=1",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "schedules"
+              ],
+              "query": [
+                {
+                  "key": "idSchedule",
+                  "value": "1"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "MyClassrooms",
+          "id": "30c9665b-87d2-4311-a688-ea06325440d8",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/classrooms?idClassroom=4",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "classrooms"
+              ],
+              "query": [
+                {
+                  "key": "idClassroom",
+                  "value": "4"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GetAllClassrooms",
+          "id": "a861bfc5-e748-43f7-9e3d-7c39985e8d95",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": "http://localhost:3000/classrooms"
+          },
+          "response": []
+        }
+      ],
+      "id": "69d2ecd1-6a9e-40ee-b870-15d5f73e6b30"
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "GetAll",
+          "item": [
+            {
+              "name": "GetAll",
+              "id": "34754daf-bfee-49fc-9580-0324a320f368",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "localhost:3000/db"
+              },
+              "response": [
+                {
+                  "id": "f2e41f5c-c0d7-4385-bea8-3559191684ba",
+                  "name": "GetAll",
+                  "originalRequest": {
+                    "method": "GET",
+                    "header": [],
+                    "url": "localhost:3000/db"
+                  },
+                  "_postman_previewlanguage": "Text",
+                  "header": [],
+                  "cookie": [],
+                  "body": ""
+                }
+              ]
+            },
+            {
+              "name": "GetAllSchedules",
+              "id": "9391d07f-c44a-49cd-9f02-176db6df5d79",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/schedules"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllDaysOfWeek",
+              "id": "c59c8b56-cf08-4928-ba31-b3d42ad08c1a",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/daysofweek"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllClassrooms",
+              "id": "c211513b-843f-48b0-8303-744c0980275f",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/classrooms"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllGrades",
+              "id": "e0eb788b-d1bd-4810-a455-48e3cb091b0f",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/grades"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllCourses",
+              "id": "d56e6320-f3eb-4a33-9ea9-5a81e8d48172",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/courses"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllSubjects",
+              "id": "13f2ff86-12ec-4907-b347-2fe9fc6488d7",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/subjects"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllBuildings",
+              "id": "2bfe81bc-324f-414a-9887-8fbb983ecb88",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/buildings"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllPresences",
+              "id": "23ea6a07-0af7-4dc1-b6ab-4c3d66d2c8fa",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/presences"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllPeriods",
+              "id": "f001f41f-3a5f-473a-b690-292e51e1ae5f",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/periods"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllSchools",
+              "id": "9238dccf-2ae3-41c2-85ba-1794d69b6cc8",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/schools"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllTypesUsers",
+              "id": "0d2f2a73-4009-45ca-9c22-25dfa028ce65",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "localhost:3000/typesUsers"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllUsers",
+              "id": "8ba73685-102e-4650-b123-fe400a6e1d75",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/users"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllUsersSchedules",
+              "id": "e444e037-e9a6-4467-b27a-7ee0f2db70f9",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/usersschedules"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllUsersPresences",
+              "id": "c6fdd65a-1d17-45e5-ada8-f30db60855c1",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/userspresences"
+              },
+              "response": []
+            },
+            {
+              "name": "GetAllUsersSubjects",
+              "id": "99400f89-4c79-4ca0-aefd-5ed6f7990177",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": "http://localhost:3000/userssubjects"
+              },
+              "response": []
+            }
+          ],
+          "id": "a6dd1f92-0378-4e43-b98d-379a497423ce"
+        },
+        {
+          "name": "AddCourse",
+          "id": "70c3054d-daaa-43e2-92b8-d566ed1fcd21",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/courses?name=Fazer Ovos",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "courses"
+              ],
+              "query": [
+                {
+                  "key": "name",
+                  "value": "Fazer Ovos"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "AddSchedule",
+          "id": "e712d862-a596-4eee-8e87-c4365a13823e",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": null
+          },
+          "response": []
+        },
+        {
+          "name": "ChangeSchedule",
+          "id": "dd1986bd-e4cc-4cf5-8ea4-36882f384e7f",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "",
+                "value": "",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "idSchedule",
+                  "value": "1",
+                  "type": "text"
+                },
+                {
+                  "key": "duration",
+                  "value": "10h",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://localhost:3000/schedules/?",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "schedules",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "",
+                  "value": null
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "id": "f49d8247-b646-4a2e-8599-7058c78f504f"
+    }
+  ]
+}

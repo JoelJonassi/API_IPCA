@@ -1,8 +1,24 @@
-[
-    { "idUserSubject": 1, "idSubject": 1, "idUser": 1 },
-    { "idUserSubject": 2, "idSubject": 1, "idUser": 4},
-    { "idUserSubject": 3, "idSubject": 1, "idUser": 5 },
-    { "idUserSubject": 4, "idSubject": 2, "idUser": 2 },
-    { "idUserSubject": 5, "idSubject": 2, "idUser": 4},
-    { "idUserSubject": 6, "idSubject": 2, "idUser": 5 }
+{
+    "usersSubjects" : [
+    { "idUserSubject": 1, "idSubject": 1, "idUser": 3},
+    { "idUserSubject": 4, "idSubject": 1, "idUser": 21},
+    { "idUserSubject": 5, "idSubject": 20, "idUser": 6},
+    { "idUserSubject": 6, "idSubject": 20, "idUser": 4},
+    { "idUserSubject": 7, "idSubject": 20, "idUser": 21},
+    { "idUserSubject": 8, "idSubject": 3, "idUser": 6},
+    { "idUserSubject": 9, "idSubject": 3, "idUser": 21},
+    { "idUserSubject": 10, "idSubject": 4, "idUser": 11},
+    { "idUserSubject": 11, "idSubject": 4, "idUser": 6},
+    { "idUserSubject": 12, "idSubject": 4, "idUser": 7},
+    { "idUserSubject": 13, "idSubject": 9, "idUser": 5},
+    { "idUserSubject": 14, "idSubject": 9, "idUser": 21},
+    { "idUserSubject": 15, "idSubject": 9, "idUser": 7},
+    { "idUserSubject": 16, "idSubject": 12, "idUser": 16},
+    { "idUserSubject": 17, "idSubject": 12, "idUser": 7},
+    { "idUserSubject": 18, "idSubject": 12, "idUser": 6},
+    { "idUserSubject": 19, "idSubject": 19, "idUser": 19},
+    { "idUserSubject": 20, "idSubject": 19, "idUser":21},
+    { "idUserSubject": 21, "idSubject": 19, "idUser": 7},
+    { "idUserSubject": 22, "idSubject": 3, "idUser": 4}
 ]
+}

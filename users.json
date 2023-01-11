@@ -1,80 +1,188 @@
-[
-    {
-      "idUser": 1,
-      "idTypeUser": 2,
-      "name": "Ricardo Gonçalves",
-      "email": "rgonçalves@ipca.pt",
-      "password": "1234"
+{
+  "users" :[
+  {
+    "idUser": 1,
+    "idTypeUser": 4,
+    "name": "admin",
+    "email": "admin@ipca.pt",
+    "password": "1234",
+    "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Favatar-people-person-business-user-3678347%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBJ"
     },
     {
       "idUser": 2,
-      "idTypeUser": 2,
-      "name": "Luís Ferreira",
-      "email": "lufer@ipca.pt",
-      "password": "1234"
-    },
+      "idTypeUser": 3,
+      "name": "technician",
+      "email": "technician@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Favatar-people-cartoon-tshirt-3726960%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBB"
+      },
     {
       "idUser": 3,
-      "idUsidTypeUserer": 2,
-      "name": "Joaquim Silva",
-      "email": "jpsilva@ipca.pt",
-      "password": "1234"
+      "idTypeUser": 2,
+      "name": "Ricardo Gonçalves",
+      "email": "rgonçalves@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainvectors.org%2Fen%2Ffree-clipart%2FVector-illustration-of-young-man-standing-in-white-shirt-and-blue-trousers%2F32337.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAZ"
     },
     {
       "idUser": 4,
-      "idTypeUser": 1,
-      "name": "Joel Jonassi",
-      "email": "a19698@alunos.ipca.pt",
-      "password": "1234"
+      "idTypeUser": 2,
+      "name": "Luís Ferreira",
+      "email": "lufer@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rawpixel.com%2Fsearch%2Ffaceless%2520man%3Ftags%3Dstickers&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAp"
     },
     {
       "idUser": 5,
+      "idTypeUser": 2,
+      "name": "Joaquim Silva",
+      "email": "jpsilva@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreesvg.org%2Fvector-image-of-smiling-young-man-avatar&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAR"
+    },
+    {
+      "idUser": 6,
+      "idTypeUser": 1,
+      "name": "Joel Jonassi",
+      "email": "a19698@alunos.ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fblack-avatar-cute-cheerful-3025348%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBR"
+    },
+    {
+      "idUser": 7,
       "idTypeUser": 1,
       "name": "José Macedo",
       "email": "a19697@alunos.ipca.pt",
-      "password": "1234"
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainvectors.org%2Fen%2Ffree-clipart%2FVector-image-of-young-man-cartoon-character%2F32306.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAJ"
     },
     {
       "idUser": 6,
       "idTypeUser": 3,
       "name": "Rui Manuel",
       "email": "ruimanuel@alunos.ipca.pt",
-      "password": "1235"
+      "password": "1235",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Ficonscout.com%2Fillustration%2Fcool-guy-2671503&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAh"
     },
     {
       "idUser": 7,
       "idTypeUser": 2,
       "name": "Teresa Abreu",
       "email": "tabreu@ipca.pt",
-      "password": "1234"
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Ffemale-user-avatar-woman-profile-2022387%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAh"
     },
     {
       "idUser": 8,
       "idTypeUser": 1,
       "name": "Juliano Castro",
       "email": "a15588@alunos.ipca.pt",
-      "password": "1234"
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Ffree%2Favatar.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBZ"
     },
     {
       "idUser": 9,
       "idTypeUser": 1,
       "name": "Maria Silva",
       "email": "a19633@alunos.ipca.pt",
-      "password": "1234"
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Fwoman-girl-surprised-shocked-omg-4498450%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAR"
     },
     {
       "idUser": 10,
       "idTypeUser": 1,
       "name": "Costa Andrade",
       "email": "a14033@alunos.ipca.pt",
-      "password": "1234"
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Ffree%2Fmale-character.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBh"
     },
     {
       "idUser": 11,
+      "idTypeUser": 2,
+      "name": "Natália Rego",
+      "email": "nataliarego@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Ffemale-girl-god-human-people-2026174%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAJ"
+    }, 
+    {
+      "idUser": 12,
+      "idTypeUser": 2,
+      "name": "Fernando Gomes",
+      "email": "fgomes@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpublicdomainvectors.org%2Fen%2Ffree-clipart%2FYoung-man-with-scarf%2F71275.html&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAx"
+    }, 
+    {
+      "idUser": 13,
+      "idTypeUser": 2,
+      "name": "Paulo Teixeira",
+      "email": "pteixeira@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fsmiling-man&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBp"
+    },
+    {
+      "idUser": 14,
+      "idTypeUser": 2,
+      "name": "Lourenço Gomes",
+      "email": "lgomes@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-vector%2F20220709%2Fourmid%2Fpngtree-man-avatar-wearing-blue-t-shirt-png-image_5809518.png&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fman-avatar&tbnid=8uvEP03enhTkHM&vet=10CAIQxiAoAGoXChMI6Mnw0KS9_AIVAAAAAB0AAAAAED8..i&docid=7ED5CWbyQGUy3M&w=360&h=360&itg=1&q=person%20image%20png%20young&hl=en&ved=0CAIQxiAoAGoXChMI6Mnw0KS9_AIVAAAAAB0AAAAAED8"
+    },
+    {
+      "idUser": 15,
+      "idTypeUser": 2,
+      "name": "Eduardo Peixoto",
+      "email": "epeixoto@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fthinking-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABBx"
+    }, 
+    {
+      "idUser": 16,
+      "idTypeUser": 2,
+      "name": "Óscar Ribeiro",
+      "email": "oribeiro@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fman-without-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABB5"
+    },
+    {
+      "idUser": 17,
+      "idTypeUser": 2,
+      "name": "Marta Martinho",
+      "email": "mmartinho@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fvectors%2Fwoman-young-girl-person-happy-5569959%2F&psig=AOvVaw05KJKXghKBplPKvZQgrPFx&ust=1673450275351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDK25ymvfwCFQAAAAAdAAAAABAE"
+    }, 
+    {
+      "idUser": 18,
+      "idTypeUser": 2,
+      "name": "Nuno Lopes",
+      "email": "nlopes@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cleanpng.com%2Fpng-lorem-ipsum-john-doe-digital-marketing-tincidunt-a-612798%2F&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCRAQ"
+    }, 
+    {
+      "idUser": 19,
+      "idTypeUser": 2,
+      "name": "Alberto Simões",
+      "email": "asimões@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fblank-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCBAQ"
+    }, 
+    {
+      "idUser": 20,
+      "idTypeUser": 2,
+      "name": "Fernando Gomes",
+      "email": "fgomes@ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Fso%2Fman-face&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqGAoTCOjJ8NCkvfwCFQAAAAAdAAAAABCJAQ"
+    },
+    {
+      "idUser": 21,
       "idTypeUser": 1,
-      "name": "admin",
-      "email": "admin@ipca.pt",
-      "password": "1234"
+      "name": "Maria Susana",
+      "email": "a2253@alunos.ipca.pt",
+      "password": "1234",
+      "UrlToImage" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffreesvg.org%2Fsmiling-young-woman&psig=AOvVaw3qMPcNSNbOIb3tCP_5100v&ust=1673449848202000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjJ8NCkvfwCFQAAAAAdAAAAABAE"
     }
   ]
-
+}

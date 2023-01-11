@@ -1,57 +1,131 @@
-[
+{
+  "subjects": [
     {
-      "idSubject": 1,
-      "idUser": 1,
-      "subject": "Matemática Discreta",
-      "ects": 6
+      "IdSubject": 1,
+      "IdUser": 7,
+      "Subject": "Matemática Discreta",
+      "Ects": 6
     },
     {
-      "idSubject": 1,
-      "idUser": 4,
-      "subject": "Matemática Discreta",
-      "ects": 6
+      "IdSubject": 1,
+      "IdUser": 3,
+      "Subject": "Matemática Discreta",
+      "Ects": 6
     },
     {
-      "idSubject": 2,
-      "idUser": 2,
-      "subject": "Programação Orientada a Objetos",
-      "ects": 6
+      "IdSubject": 2,
+      "IdUser": 4,
+      "Subject": "Programação Orientada a Objetos",
+      "Ects": 6
     },
     {
-      "idSubject": 3,
-      "idUser": 3,
-      "subject": "Análise e Modelação de Software",
-      "ects": 6
+      "IdSubject": 3,
+      "IdUser": 5,
+      "Subject": "Análise e Modelação de Software",
+      "Ects": 6
     },
     {
-      "idSubject": 4,
-      "idUser": 1,
-      "subject": "Cálculo",
-      "ects": 6
+      "IdSubject": 4,
+      "IdUser": 11,
+      "Subject": "Cálculo",
+      "Ects": 6
     },
     {
-      "idSubject": 5,
-      "idUser": 3,
-      "subject": "Algebra Linear",
-      "ects": 6
+      "IdSubject": 5,
+      "IdUser": 3,
+      "Subject": "Algebra Linear",
+      "Ects": 6
     },
     {
-      "idSubject": 6,
-      "idUser": 3,
-      "subject": "Sistemas Operativos",
-      "ects": 6
+      "IdSubject": 6,
+      "IdUser": 12,
+      "Subject": "Sistemas Operativos",
+      "Ects": 6
     },
     {
-      "idSubject": 7,
-      "idUser": 3,
-      "subject": "Redes de Computadores",
-      "ects": 6
+      "IdSubject": 7,
+      "IdUser": 13,
+      "Subject": "Redes de Computadores",
+      "Ects": 6
     },
     {
-      "idSubject": 8,
-      "idUser": 3,
-      "subject": "Análise e Modelação de Software",
-      "ects": 6
-    }
+      "IdSubject": 8,
+      "IdUser": 14,
+      "Subject": "Programação de Dispositivos Móveis",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 9,
+      "IdUser": 5,
+      "Subject": "Inteligência Artificial",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 10,
+      "IdUser": 3,
+      "Subject": "Sistemas Embebidos e em Tempo Real",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 11,
+      "IdUser": 15,
+      "Subject": "Projeto Aplicado",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 12,
+      "IdUser": 16,
+      "Subject": "Integração de Sistemas de Informação",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 13,
+      "IdUser": 4,
+      "Subject": "Estruturas de Dados Avançados",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 14,
+      "IdUser": 3,
+      "Subject": "Fundamentos de Física",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 15,
+      "IdUser": 17,
+      "Subject": "Laboratórios de Informática",
+      "Ects": 6
+    },    
+    {
+      "IdSubject": 16,
+      "IdUser": 3,
+      "Subject": "Estatística",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 17,
+      "IdUser": 13,
+      "Subject": "Arquitetura de Computadores",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 18,
+      "IdUser": 18,
+      "Subject": "Comunicação de Dados",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 19,
+      "IdUser": 19,
+      "Subject": "Processamento de Linguagens",
+      "Ects": 6
+    },
+    {
+      "IdSubject": 20,
+      "IdUser": 4,
+      "Subject": "Programação Imperativa",
+      "Ects": 6
+    }    
   ]
+}
 

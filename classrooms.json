@@ -1,80 +1,144 @@
-[
+{
+    "classrooms" : [
         {
-            "idClassroom" : 1,
-            "idSchool" : 1,
-            "name" : "sala 24",
-            "lotation" : 50
+            "IdClassroom" : 1,
+            "IdSchool" : 1,
+            "Name" : "Sala 24",
+            "position":{
+                "latitude": 41.535857,
+                "longitude":-8.627524
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 2,
-            "idSchool" : 1,
-            "name" : "sala 2",
-            "lotation" : 50
+            "IdClassroom" : 2,
+            "IdSchool" : 1,
+            "Name" : "Sala L",
+            "position":{
+                "latitude": 41.53774958234516,
+                "longitude": -8.627396824803894
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 3,
-            "idSchool" : 2,
-            "name" : "sala N",
-            "lotation" : 50
+            "IdClassroom" : 3,
+            "IdSchool" : 2,
+            "Name" : "Sala N",
+            "position":{
+                "latitude": 41.53773889458762,
+                "longitude": -8.627482496029359
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 4,
-            "idSchool" : 2,
-            "name" : "sala T",
-            "lotation" : 50
+            "IdClassroom" : 4,
+            "IdSchool" : 2,
+            "Name" : "Sala T",
+            "position":{
+                "latitude":41.53771417244225,
+                "longitude": -8.627204172006563
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 5,
-            "idSchool" : 3,
-            "name" : "sala Design",
-            "lotation" : 50
+            "IdClassroom" : 5,
+            "IdSchool" : 3,
+            "Name" : "Sala Design",
+            "position":{
+                "latitude": 41.537301,
+                "longitude": -8.628077
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 6,
-            "idSchool" : 3,
-            "name" : "sala E",
-            "lotation" : 50
+            "IdClassroom" : 6,
+            "IdSchool" : 3,
+            "Name" : "Sala E",
+            "position":{
+                "latitude": 41.537470,
+                "longitude": -8.627418
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 7,
-            "idSchool" : 3,
-            "name" : "Auditório EST",
-            "lotation" : 50
+            "IdClassroom" : 7,
+            "IdSchool" : 3,
+            "Name" : "Auditório EST",
+            "position":{
+                "latitude": 41.536910,
+                "longitude": -8.627594
+            },
+            "Lotation" : 50
+        },
+        { 
+            "IdClassroom" : 8,
+            "IdSchool" : 3,
+            "Name" : "Sala 1",
+            "position":{
+                "latitude": 41.536615,
+                "longitude": -8.627415
+            },
+            "Lotation" : 50
+        },
+        { 
+            "IdClassroom" : 9,
+            "IdSchool" : 3,
+            "Name" : "Sala 2",
+            "position":{
+                "latitude": 41.536659,
+                "longitude": -8.627631
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 8,
-            "idSchool" : 3,
-            "name" : "sala 1",
-            "lotation" : 50
+            "IdClassroom" : 10,
+            "IdSchool" : 3,
+            "Name" : "Sala 3",
+            "position":{
+                "latitude":41.536589,
+                "longitude": -8.627639
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 9,
-            "idSchool" : 3,
-            "name" : "sala 2",
-            "lotation" : 50
+            "IdClassroom" : 11,
+            "IdSchool" : 3,
+            "Name" : "Biblioteca",
+            "position":{
+                "latitude": 41.53793705183831,
+                "longitude": -8.62724218403077
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 10,
-            "idSchool" : 3,
-            "name" : "sala 3",
-            "lotation" : 50
+            "IdClassroom" : 12,
+            "IdSchool" : 3,
+            "Name" : "Laboratório IoT",
+            "position":{
+                "latitude": 41.53777626672144,
+                "longitude": -8.627757298562777
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 11,
-            "idSchool" : 3,
-            "name" : "Biblioteca",
-            "lotation" : 50
+            "IdClassroom" : 13,
+            "IdSchool" : 3,
+            "Name" : "Sala Redes de Computadores",
+            "position":{
+                "latitude": 41.537991,
+                "longitude": -8.627688
+            },
+            "Lotation" : 50
         },
         {
-            "idClassroom" : 12,
-            "idSchool" : 3,
-            "name" : "sala IoT",
-            "lotation" : 50
-        },
-        {
-            "idClassroom" : 13,
-            "idSchool" : 3,
-            "name" : "sala Redes de Computadores",
-            "lotation" : 50
-        }
+            "IdClassroom" : 13,
+            "IdSchool" : 3,
+            "Name" : "Auditório EST",
+            "position":{
+                "latitude": 41.53722573193088,
+                "longitude": -8.627476591513393
+            },
+            "Lotation" : 50
+        }  
 ]
+}

@@ -1,14 +1,16 @@
-[
+{
+    "grades" : [
     {
-        "idGrade": 1,
-        "name": "1º Ano"
+        "IdGrade": 1,
+        "Name": "1º Ano"
     },
     {
-        "idGrade": 2,
-        "name": "2º Ano"
+        "IdGrade": 2,
+        "Name": "2º Ano"
     },
     {
-        "idGrade": 3,
-        "name": "3º Ano"
+        "IdGrade": 3,
+        "Name": "3º Ano"
     }
 ]
+}
