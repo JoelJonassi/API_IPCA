@@ -1,4 +1,4 @@
-[
+{
         {
             "idClassroom" : 1,
             "idSchool" : 1,
@@ -17,4 +17,4 @@
             "name" : "sala N",
             "lotation" : 50
         }
-]
+}
