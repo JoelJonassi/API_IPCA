@@ -141,5 +141,32 @@
         },
         "Lotation": 50
       }
-    ]
+    ],
+  "buildings": [
+    {
+      "IdBuilding": 1,
+      "IdSchool": 1,
+      "Name": "Polo Barcelos"
+    },
+    {
+      "IdBuilding": 2,
+      "IdSchool": 2,
+      "Name": "Polo Barcelos"
+    },
+    {
+      "IdBuilding": 3,
+      "IdSchool": 3,
+      "Name": "Polo Barcelos"
+    },
+    {
+      "IdBuilding": 4,
+      "IdSchool": 1,
+      "Name": "Polo Guimarães"
+    },
+    {
+      "IdBuilding": 5,
+      "IdSchool": 2,
+      "Name": "Polo Famalicão"
+    }
+  ]
 }
